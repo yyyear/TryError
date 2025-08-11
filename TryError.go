@@ -1,6 +1,8 @@
 package TryError
 
-import "github.com/yyyear/YY"
+import (
+	"github.com/yyyear/YY"
+)
 
 type Result[T any] struct {
 	Value T
